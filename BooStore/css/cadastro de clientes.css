@@ -1,0 +1,101 @@
+.background{
+    background: rgb(191,78,72);
+    background: linear-gradient(180deg, rgba(191,78,72,1) 0%, rgba(191,78,72,1) 45%,rgba(191,78,72,1) 55%, rgba(50,11,28,1) 71%);
+}
+
+.foto{
+    width:150px;
+    height: 150px;
+    margin:50px;
+}
+.titu{
+    color: white;
+    display: flex;
+    font-size: 30px;
+    margin: 20px 10PX;
+    text-align: center;
+}
+
+.titulo{
+    text-align: center;
+    margin-left:  90px;
+    font-weight: normal;
+}
+
+#formi{color: white;
+    text-align: center;
+}
+
+#nome{
+    width: 920px;
+    display: block;
+    margin: 20px auto;
+    background: #612021;
+    text-align: left;
+    padding: 20px 10px;
+    border-radius: 8px;
+    color: ;
+    font-weight: bold;
+}
+
+#telefone{
+    width: 920px;
+    display: block;
+    margin: 1px auto;
+    background: #612021;
+    text-align: left;
+    padding: 20px 10px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+
+}
+
+#email{
+    width: 920px;
+    display: block;
+    margin: 20px auto;
+    background: #612021;
+    text-align: left;
+    padding: 20px 10px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+
+}
+
+#botao{
+
+    width: 945px;
+    display: block;
+    margin: 20px auto;
+    text-decoration: none;
+    background: #8A002F;
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 8px;
+    margin-top: -8px;
+    margin-left: 45px;
+    font-size: 35px;
+  }
+  
+  td {
+    border-left-width: 0;
+    min-width: 400px;
+    font-weight: bold;
+    margin: auto;
+
+  }
+  
+  td:first-child {
+    border-left-width: 1px;
+  }

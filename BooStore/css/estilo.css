@@ -1,0 +1,12 @@
+
+.fundo{
+    background: linear-gradient(to top, #BF4E48 0%, #320B1C 100%);
+}
+
+.cabecalho{
+    display: flex;
+    color: white;
+    font-size: 25px;
+    margin-left: 250px;
+}
+

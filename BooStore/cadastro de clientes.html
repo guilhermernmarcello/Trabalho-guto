@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html class="ht" lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link href="css/cadastro de clientes.css" rel="stylesheet">
+
+    <title>Cadastro de Clientes</title>
+</head>
+
+<body class="background">
+    <div class="titu" >    
+    <img class="foto" src="imagens/Grupo 481.png" alt="">
+    <h1 class="titulo">Cadastro de Clientes</h1><br><br><br><br><br>
+    <br><br><br><br><br><br>
+</div>
+
+    <div id="formi">
+
+    <form  name="formulario-contato" action="enviar*=-email.php" method="POST"><br>
+        <label  for="nome"></label>
+        <input placeholder="nome" id="nome">
+
+        <label  for="telefone"></label>
+        <input placeholder="telefone" id="telefone">
+
+        <label  for="email"></label>
+        <input  placeholder="email" id="email">
+
+        <button onclick="CadastrarClientes();" id="botao" type="button">CADASTRAR</button> <BR>
+    </form>
+
+    <p class="mensagem"></p>
+
+    <div>
+        <table class="lista-clientes">
+        <tr>
+            <td>NOME</td>
+            <td>TELEFONE</td>
+            <td>EMAIL</td>
+        </tr>
+    </table>
+    <hr>
+        <script src="javascript/cadastro de clientes.js"></script>
+    </div>
+
+    </div>  
+    
+</body>
+</html>
